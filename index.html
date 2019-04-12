@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+
+
+
+<head>
+
+
+<body>
+
+<h2>Create User</h2>
+
+
+Full Name: <input type="text" name="FirstName" id="name"><br>
+User ID: <input type="text" name="LastName" id="id">
+
+<input type="button" value="Random ID" onclick="randomize()">
+
+<br>
+
+<input type="button" value="Create User" onclick="createUser()">
+
+
+<script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-firestore.js"></script>
+
+
+<script>
+
+
+
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCCCnyGH8t936rVytJjGCmQh6Xk762zFU4",
+    authDomain: "plainsborobluebirdboxwatch.firebaseapp.com",
+    databaseURL: "https://plainsborobluebirdboxwatch.firebaseio.com",
+    projectId: "plainsborobluebirdboxwatch",
+    storageBucket: "plainsborobluebirdboxwatch.appspot.com",
+    messagingSenderId: "462876964259"
+  };
+
+
+  firebase.initializeApp(config);
+var db = firebase.firestore()
+
+
+</script>
+
+
+<script src="app.js"></script>
+
+
+
+
+
+
+
+</body>
+</html>
