@@ -23,11 +23,18 @@ User ID: <input type="text" name="LastName" id="id">
 <br>
 
 <input type="button" value="Create User" onclick="createUser()">
+<br>
+<br>
+<input type="button" value="Generate Excel" onclick="getEntries()">
 
-
+<script src="app.js"></script>
+<script src="getData.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-app.js"></script>
 
 <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-firestore.js"></script>
+<script lang = "javascript" src="xlsx.full.min.js"></script>
+
+<script lang="javascript" src="FileSaver.min.js"></script>
 
 
 <script>
@@ -52,7 +59,7 @@ var db = firebase.firestore()
 </script>
 
 
-<script src="app.js"></script>
+
 
 
 

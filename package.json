@@ -1,0 +1,17 @@
+{
+  "name": "plainsboropreservecreateusers",
+  "version": "1.0.0",
+  "description": "Creates Users and Excel file",
+  "main": "FileSaver.js",
+  "dependencies": {
+    "firebase-admin": "^7.3.0",
+    "firestore-export-import": "^0.1.7",
+    "node-firestore-import-export": "^0.13.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
